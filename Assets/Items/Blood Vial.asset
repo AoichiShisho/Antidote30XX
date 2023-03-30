@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371586deff9c36b4aa2580a5028565ba, type: 3}
+  m_Name: Blood Vial
+  m_EditorClassIdentifier: 
+  itemName: Past
+  desc: A sample of blood from the supervisors of the bunker. Only people with O-type
+    blood are supposed to be allowed in the bunker... Their perpetration of my betrayal
+    makes more sense now.
+  icon: {fileID: 21300000, guid: 035cb7b02d72c5844a7a03ec340ab8ca, type: 3}

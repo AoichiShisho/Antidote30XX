@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6071478085947448379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6071478085947448356}
+  - component: {fileID: 6071478085947448357}
+  - component: {fileID: 6071478085947448378}
+  m_Layer: 0
+  m_Name: SampleTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6071478085947448356
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6071478085947448379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.889248, y: 3.44, z: 6.309349}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6071478085947448357
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6071478085947448379}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3.6505363, z: 4.168094}
+  m_Center: {x: 0, y: -1.3252665, z: -0.27874064}
+--- !u!114 &6071478085947448378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6071478085947448379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1480a93093cae544eae2010ddf664f0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requirements:
+    requiredItems: []
+    availablePeriods: 0400000003000000020000000100000000000000
+    requiredDialog: 
+  dialogId: 0
+  lines: []
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  npcsToTeleport: []
+  npcTeleportLocation: {fileID: 0}
+  playerTeleportLocation: {fileID: 0}
+  playerTeleportDelay: 0
+  IsOneTimeTrigger: 1
+  ShouldPlayerFreeze: 1
